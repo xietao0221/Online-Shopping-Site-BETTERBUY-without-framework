@@ -1,0 +1,46 @@
+body {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+
+table {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+table th,  table td {
+    font-size: 15px;
+    height: 23px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    color: black;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+table tr:nth-child(odd) {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button {
+    position: relative;
+    left: 5%;
+    top: 30px;
+    width: 80px;
+    height: 30px;
+}
+button:hover {
+    cursor: pointer;
+}

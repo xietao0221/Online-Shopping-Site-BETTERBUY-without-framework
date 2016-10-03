@@ -1,0 +1,55 @@
+body {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+}
+
+div.optionChoice {
+    position: relative;
+
+    width: 90%;
+    left: 5%;
+}
+
+div.resultDisplay {
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+
+table {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    width: 90%;
+    margin-top: 20px;
+
+    border-collapse: collapse;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+table th, div.show_employee_result > table td {
+    font-size: 15px;
+    height: 23px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    color: black;
+    background-color: lightgrey;
+}
+
+table tr:nth-child(odd) {
+    color: black;
+    background-color: white;
+}
+
+select {
+    width: 150px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+}
+button:hover {
+    cursor: pointer;
+}

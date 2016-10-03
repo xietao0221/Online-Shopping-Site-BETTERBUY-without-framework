@@ -1,0 +1,299 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Sans", "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+}
+
+div#banner {
+    font-family: "Lucida Sans", "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    height: 60px;
+    background-color: #2F312F;
+}
+
+div#logoField {
+    float: left;
+    position: relative;
+    left: 10px;
+    height: 60px;
+    width: 100px;
+    background-color: #2F312F;
+}
+div#logoField > img:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+div#menuField {
+    float: left;
+    position: relative;
+    left: 40px;
+    height: 60px;
+    width: 150px;
+    background-color: #2F312F;
+    z-index: 30;
+}
+div#menuField > button {
+    height: 100%;
+    width: 80%;
+    /*margin-top: 5%;*/
+    font-size: 1.2em;
+    background-color: #2F312F;
+    color: white;
+    outline: none;
+    border: none;
+}
+div#menuField > button:hover {
+    cursor: pointer;
+    color: gray;
+}
+div#menuField > div#subMenu {
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    background: #2F312F;
+}
+
+div#menuField > div#subMenu > button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    font-size: 0.9em;
+    background: #2F312F;
+    color: white;
+    border: none;
+}
+
+div#menuField > div#subMenu > button:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+div#searchField {
+    float: left;
+    position: relative;
+    left: 50px;
+    height: 60px;
+    width: 250px;
+    background-color: #2F312F;
+}
+
+div#signInUpField {
+    float: right;
+    position: relative;
+    right: 30px;
+    height: 60px;
+    width: 150px;
+    background-color: #2F312F;
+}
+div#signInUpField > button {
+    height: 100%;
+    width: 80%;
+    /*margin-top: 5%;*/
+    font-size: 1.2em;
+    background-color: #2F312F;
+    color: white;
+    outline: none;
+    border: none;
+}
+div#signInUpField > button:hover {
+    cursor: pointer;
+    color: gray;
+}
+div#signInUpField > div#subMenu1 {
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    background: #2F312F;
+    z-index: 100;
+}
+
+div#signInUpField > div#subMenu1 > button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    font-size: 0.9em;
+    background: #2F312F;
+    color: white;
+    border: none;
+    outline: none;
+    z-index: 100;
+}
+
+div#signInUpField > div#subMenu1 > button:hover {
+    cursor: pointer;
+    color: gray;
+    outline: none;
+    z-index: 100;
+}
+
+div#shoppingCartField {
+    float: right;
+    position: relative;
+    right: 10px;
+    height: 60px;
+    width: 100px;
+    background-color: #2F312F;
+}
+div#shoppingCartField > button {
+    background-color: #2F312F;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    color: white;
+    outline: none;
+}
+div#shoppingCartField > button:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+div#signInUpField > button {
+    background-color: #2F312F;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    color: white;
+    outline: none;
+}
+div#signInUpField > button:hover {
+    cursor: pointer;
+    color: gray;
+}
+div#signInUpField > button:focus {
+    outline: none;
+}
+
+div#searchField > button {
+    background-color: #2F312F;
+    border: 0;
+    height: 100%;
+    font-size: 1.5em;
+    color: white;
+    outline: none;
+}
+div#searchField > button:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+div#searchField > input {
+    background-color: white;
+    border: 0;
+    width: 200px;
+    /*height: 100%;*/
+    font-size: 1.1em;
+    color: black;
+    outline: none;
+    border-radius: 6px;
+}
+
+div#content {
+    position: relative;
+    width: 1100px;
+    margin-left: 50%;
+    left: -550px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div.pageFrame {
+    position: relative;
+    width: 1000px;
+    /*height: 900px;*/
+    left: 50%;
+    top: 50px;
+    bottom: 50px;
+    margin-left: -500px;
+}
+div.pageFrameHeader {
+    position: relative;
+    width: 1000px;
+    height: 70px;
+    border-bottom: 2px solid black;
+    font-size: 40px;
+    line-height: 70px;
+}
+div.orderFrame {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1004px;
+    border: 2px solid black;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+
+div.orderFrameHeader {
+    position: relative;
+    width: 1000px;
+    height: 80px;
+    background-color: #F6F6F6;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+}
+div.fragment {
+    position: relative;
+    float: left;
+    width: 5px;
+    height: 70px;
+    top: 5px;
+    /*background-color: gray;*/
+    border-left: 2px solid black;
+}
+div.orderPlaced {
+    position: relative;
+    top: 5px;
+    float: left;
+    width: 190px;
+    left: 20px;
+}
+div.orderTotal {
+    position: relative;
+    top: 5px;
+    float: left;
+    width: 170px;
+    left: 20px;
+}
+div.orderShipTo {
+    position: relative;
+    top: 5px;
+    float: left;
+    width: 410px;
+    left: 20px;
+}
+div.orderNumber {
+    position: relative;
+    top: 5px;
+    float: left;
+    width: 180px;
+    left: 20px;
+}
+div.smallHeader {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.smallContent {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+div.singleProduct {
+    position: relative;
+    float: left;
+    width: 330px;
+    height: 200px;
+    background-color: red;
+}
